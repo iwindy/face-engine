@@ -3,15 +3,14 @@ package main
 import (
 	"fmt"
 
-	. "github.com/loouss/face-engine1/v4"
-	"github.com/loouss/face-engine1/v4/util"
+	"github.com/iwindy/face-engine/v4/util"
 )
 
 var imageInfo = util.GetResizedImageInfo("./mask.jpg")
 
 func main() {
 	// 激活SDK
-	if err := OnlineActivation("2eCYi7C1SiTMWCDWXZzt27CVbMTQcUov9452yhphUisF", "9gc3DQBq93eiSxGUvXFgTLmvv8Xp1ZAKua7RVKZ8i1jo", "82G1-11GA-B13Z-B2Z5"); err != nil {
+	if err := OnlineActivation("8EKZpEAeQCnD2ysKdxSrY6TNzog5kjQLHtNYzAGxkRtF", "8YnJR7PmW1yd12wxCA4sXzxop1ipRd9FMGmdmAKdjqct", "86J1-11LD-V13U-7T6Q"); err != nil {
 		fmt.Printf("%#v\n", err)
 		return
 	}
